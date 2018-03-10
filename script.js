@@ -19,20 +19,19 @@ b. the best way to organize for exams(2pt)
 c. how much studying is necessary( i.e. how many hours do I have to study minimum)(3pt)
 d. HAha YoU ThINK i WouLd Go To A STudY sESSion(-_-)(4pt)
 
+0pt: rachel     
 
+3-4pt:roygbiv
 
-3-4pt:rachel
+5-7pt:procrastination
 
-5-7pt:roygbiv
+8-9pt:he-who-must-not-be-named
 
-8-9pt:procrastination
-
-10-12pt:he-who-must-not-be-named
 */
 
-var time,
-      asking,
-      doing,
+var time = null,
+      asking = null,
+      doing = null,
       pageTitle = document.getElementById('page-title'),
       pageTitleText = pageTitle.innerHTML
       tryAgain = document.getElementById('try-again'),
@@ -50,7 +49,41 @@ function resetQuiz(){
 
 }
 function getPersonality(){
+	var score = 0;
+	if(time.id === "roygbiv1"){
+		score+=1
+	}else if(time.id === "procrastination1"){
+		score+=2
+	}else if(time.id === "notnamed1"){
+		score+=3
+	}else if(doing.id === "roygbiv2"){
+		score+=1
+	}else if(doing.id === "procrastination2"){
+		score+=2
+	}else if(doing.id === "notnamed2"){
+		score+=3
+	}else if(asking.id === "roygbiv3"){
+		score+=1
+	}else if(asking.id === "procrastination3"){
+		score+=2
+	}else if(asking.id === "notnamed3"){
+		score+=3
+	}
 
+	if(score>=0 && score<=2){
+		return 0
+
+	}
+	if(score>=3 && score<=4){
+		return 1
+		
+	}
+	if(score>=5 && score<=7){
+		return 2
+	}
+	if(score>=8 && score<=9){
+		return 3
+	}
 }
 
 
