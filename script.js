@@ -30,7 +30,28 @@ d. HAha YoU ThINK i WouLd Go To A STudY sESSion(-_-)(4pt)
 10-12pt:he-who-must-not-be-named
 */
 
+var time,
+      asking,
+      doing,
+      pageTitle = document.getElementById('page-title'),
+      pageTitleText = pageTitle.innerHTML
+      tryAgain = document.getElementById('try-again'),
+      quizWrapper = document.getElementById('quiz-wrapper'),
+      result = document.getElementById('result'),
+      formSubmit = document.getElementById('form-submit');
 
+tryAgain.addEventListener("click", resetQuiz);
+formSubmit.addEventListener("click", processResults);
+
+function processResults(){
+
+}
+function resetQuiz(){
+
+}
+function getPersonality(){
+
+}
 
 
 
