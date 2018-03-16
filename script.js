@@ -60,17 +60,17 @@ function processResults(){
     	tryAgain.style.display = "block"
     	if(personality == 0){
     		pageTitle.innerHTML = "You're Rachel Berry"
-    		//result.styl.backgroundImage = "url('img/rachel.png')"
+    		result.style.backgroundImage = "url('img/rachel.pdf')"
     	}else if(personality == 1){
     		pageTitle.innerHTML = "You're ROYGBIV"
-    		//result.styl.backgroundImage = "url('img/rachel.png')"
+    		result.style.backgroundImage = "url('img/roygbiv.jpg')"
     	}else if(personality == 2){
 			pageTitle.innerHTML = "You're procrastination"
-			//result.styl.backgroundImage = "url('img/rachel.png')"
+			result.style.backgroundImage = "url('img/procrastination.jpg')"
     	}
     	else if(personality == 3){
     		pageTitle.innerHTML = "You're he-who-must-not-be-named"
-    		//result.styl.backgroundImage = "url('img/rachel.png')"
+    		result.style.backgroundImage = "url('img/notnamed.png')"
     	}
     }
 
