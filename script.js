@@ -60,7 +60,7 @@ function processResults(){
     	tryAgain.style.display = "block"
     	if(personality == 0){
     		pageTitle.innerHTML = "You're Rachel Berry"
-    		result.style.backgroundImage = "url('img/rachel.pdf')"
+    		result.style.backgroundImage = "url('img/rachel.png')"
     	}else if(personality == 1){
     		pageTitle.innerHTML = "You're ROYGBIV"
     		result.style.backgroundImage = "url('img/roygbiv.jpg')"

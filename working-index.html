@@ -1,0 +1,82 @@
+<!-- remove this comment and place your html here -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello World</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+		<link rel="stylesheet" href="style.css">
+
+		 <!-- Compiled and minified CSS -->
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+		 <!-- Compiled and minified JavaScript -->
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		   
+	</head>
+
+	<body>
+		<header>
+			<h1 id = "page-title"> Who are you during exams?</h1>
+		</header>
+		<main>
+			<button id="try-again">try again</button>
+			<button id="form-submit">Submit</button>
+			<div id = "result">
+			</div>
+
+			
+			<!-- <div class="row">
+		    <div class="col s12 m6">
+		      <div class="card">
+		        <div class="card-image">
+		          <img src="images/sample-1.jpg">
+		          <span class="card-title">Card Title</span>
+		          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+		        </div>
+		        <div class="card-content">
+		          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+		        </div>
+		      </div>
+		    </div>
+		  </div> -->
+			<div id = "quiz-wrapper">
+				<div class = "question">
+					<h2>When do you start studying for exams?</h2>
+					<input type = "radio" name = "time" id = "rachel1" >
+					<label for = "rachel1 ">1 month in advance of course</label>
+					<input type = "radio" name = "time" id = "roygbiv1" >
+					<label for = "roygbiv1">I start organizing 2 weeks in advance and study the week before</label>
+					<input type = "radio" name = "time" id = "procrastination1" >
+					<label for = "procrastination1">I'll probably pull an all nighter before each one</label>
+					<input type = "radio" name = "time" id = "notnamed1" >
+					<label for = "notnamed1">WHAT EXAMS</label>
+				</div>
+				<div class = "question">
+					<h2>What do you see yourself doing the night before an exam?</h2>
+					<input type = "radio" name = "doing" id = "rachel2" >
+					<label for = "rachel2">just reviewing everything I've been studying</label>
+					<input type = "radio" name = "doing" id = "roygbiv2" >
+					<label for = "roygbiv2">Color coding a schedule for after exams</label>
+					<input type = "radio" name = "doing" id = "procrastination2" >
+					<label for = "procrastination2">I'm beginning my all nighter</label>
+					<input type = "radio" name = "doing" id = "notnamed2" >
+					<label for = "notnamed2">WHAT EXAMS,I've already fallen asleep</label>
+				</div>
+				<div class = "question">
+					<h2>What do you ask the teacher at a review session?</h2>
+					<input type = "radio" name = "asking" id = "rachel3">
+					<label for = "rachel3">I have a list of  questions that I've already asked other people about</label>
+					<input type = "radio" name = "asking" id = "roygbiv3" >
+					<label for = "roygbiv3">the best way to organize for exams</label>
+					<input type = "radio" name = "asking" id = "procrastination3" >
+					<label for = "procrastination3">how much studying is necessary(i.e. how many hours do I have to study minimum)</label>
+					<input type = "radio" name = "asking" id = "notnamed3">
+					<label for = "notnamed3">HAha YoU ThINK i WouLd Go To A STudY sESSion(-_-)</label>
+				</div>
+
+			</div>
+		</main>
+		<script src= "script.js"></script>
+	</body>
+
+</html>

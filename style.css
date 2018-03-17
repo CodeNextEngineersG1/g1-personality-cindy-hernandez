@@ -47,6 +47,7 @@ header,main{
 }
 .question input {
    flex-basis: 40%;
+   
 }
 #result{
 	display: none;
@@ -54,8 +55,8 @@ header,main{
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
-	width: 700px;
-	height: 700px;
+	width: 1000px;
+	height: 1000px;
 	background-repeat: none;
 	background-size: cover;
 	background-position: center;
